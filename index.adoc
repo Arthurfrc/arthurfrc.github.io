@@ -1,5 +1,6 @@
 = Processamento Digital de Imagens
 Arthur Felipe Rodrigues Costa
+
 :toc: left
 :icons: font
 
