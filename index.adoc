@@ -9,3 +9,15 @@ Arthur Felipe Rodrigues Costa
 Esta é uma página dedicada aos projetos e atividades de PDI, criada com AsciiDoc e hospedada no GitHub Pages.
 
 == Capítulo 2. Manipulando pixels em uma imagem
+
+== Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
+
+== Capítulo 10, Decomposição de imagens em planos de bits
+
+== Capítulo 11, Preenchendo regiões
+
+== Capítulo 12, Manipulação de histogramas
+
+== Capítulo 14, Filtragem no domínio espacial I - Convolução
+
+== Capítulo 15, Filtragem no domínio espacial II - TiltShift
