@@ -10,8 +10,6 @@ Arthur Felipe Rodrigues Costa
 :summary:
 
 toc::[]
-image::https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-2.png[biel-2.png]
-image::https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-3.png[biel-3.png]
 == Introdução
 
 Esta é uma página dedicada aos projetos e atividades de PDI, criada com AsciiDoc e hospedada no GitHub Pages.
@@ -37,6 +35,8 @@ image::exercicio_2/biel-2.png[]
 .Figura 3: biel-3png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-3.png]
 image::exercicio_2/biel-3.png[]
+
+Para a segunda parte do exercício, a de troca de regiões, foi preciso modificar um pouco o arquivo anterior para este https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists2.txt[CMakeLists.txt] e, novamente com a imagem original do Biel.png como entrada, resultando na saída abaixo:
 
 == Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
 
