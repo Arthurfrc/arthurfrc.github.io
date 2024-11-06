@@ -2,6 +2,11 @@
 #include <opencv2/opencv.hpp>
 
 int main(int argc, char** argv) {
+  if (argc != 2) {
+    std::cout << "Uso: " << argv[0] << " <imagem_esteganografada>" << std::endl;
+    return -1;
+  }
+
   cv::Mat imagemEsteganografada, imagemRecuperada;
   cv::Vec3b valEsteganografada, valRecuperada;
   int nbits = 3;
@@ -10,7 +15,7 @@ int main(int argc, char** argv) {
 
   if (imagemEsteganografada.empty()) {
     std::cout << "imagem nao carregou corretamente" << std::endl;
-    return (-1);
+    return -1;
   }
 
   imagemRecuperada = imagemEsteganografada.clone();
