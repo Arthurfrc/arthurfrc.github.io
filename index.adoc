@@ -32,13 +32,32 @@ E após rodar o programa com o https://github.com/Arthurfrc/arthurfrc.github.io/
 image::exercicio_2/biel-2.png[]
 
 
-.Figura 3: biel-3png
+.Figura 3: biel-3.png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-3.png]
 image::exercicio_2/biel-3.png[]
 
 Para a segunda parte do exercício, a de troca de regiões, foi preciso modificar um pouco o arquivo anterior para este https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists2.txt[CMakeLists.txt] e, novamente com a imagem original do Biel.png como entrada, resultando na saída abaixo:
 
 == Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
+
+Nesse capítulo foi instruído na atividade à se fazer uma imagem de 256x256 pixels de uma senóide com 4 períodos e amplitude de 127, e gerar um .png e um .yml dessa senóide criada.
+
+O resultado foi o seguinte:
+
+.Figura 4: Senóide de 4 períodos
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/4-senoide-256.png]
+image::exercicio_5/4-senoide-256.png[]
+
+Arquivo YML gerado: https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/4-senoide-256.yml[4-senoide-256.yml]
+
+A outra parte do exercício pedia para traçar um gráfico da diferença calculada ao londo de uma linha extraída das imagens correspondentes.
+O gráfico extraído foi esse:
+
+.Figura 5: Diferença entre senóides (extraída com a ajuda do seguinte programa feito em Python https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferencas.ipynb[diferencas.ipynb], e compilado no Jupyter Notebook)
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferenca.png]
+image::exercicio_5/diferenca.png[]
+
+A imagem mostra uma nova onda que é formada pela sobreposição das senóides anteriores, isso acontece porque as ondas se misturam e acabam se interferindo, o que forma essa nova estrutura oscilatória, que é mais complexa do que as duas ondas que as ondas originais.
 
 == Capítulo 10, Decomposição de imagens em planos de bits
 
