@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -26,4 +27,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add index.html
           git commit -m 'Convert .adoc to .html'
-          git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY}}@github.com/Arthurfrc/arthurfrc.github.io.git
+          git push https://x-access-token:${{ secrets.ACTIONS_DEPLOY_KEY }}@github.com/Arthurfrc/arthurfrc.github.io.git
