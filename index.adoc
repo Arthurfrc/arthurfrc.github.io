@@ -1,12 +1,16 @@
+:toc: left
+:toclevels: 2
+
 = Processamento Digital de Imagens
 Arthur Felipe Rodrigues Costa
 
-:toc: left
-:toclevels: 2
 :icons: font
 :summary:
 
 {summary}
+
+==Sumário
+toc::[]
 
 == Introdução
 
