@@ -26,7 +26,6 @@ image::exercicio_2/biel.png[]
 
 E após rodar o programa com o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists.txt[CMakeLists.txt] adequado, foram obtido os resultados abaixo:
 
-
 .Figura 2: biel-2.png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-2.png]
 image::exercicio_2/biel-2.png[]
@@ -70,6 +69,7 @@ A imagem mostra uma nova onda que é formada pela sobreposição das senóides a
 == Capítulo 10, Decomposição de imagens em planos de bits
 
 == Capítulo 11, Preenchendo regiões
+Esta situação de somente 255 objetos poderem ser verificados acontece por causa do tipo de dado (uchar) que pe utilizado, pois esse tipo só possui 8 bits, caso fosse necessário ter que contar mais de 255 objetos, seria possível com a mudança para um tipo de dado com 16bits, que assim poderia contar até mais de 60.000 objetos na figura.
 
 == Capítulo 12, Manipulação de histogramas
 
