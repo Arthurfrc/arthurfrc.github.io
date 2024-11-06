@@ -42,9 +42,17 @@ Para a segunda parte do exercício, a de troca de regiões, foi preciso modifica
 
 Nesse capítulo foi instruído na atividade à se fazer uma imagem de 256x256 pixels de uma senóide com 4 períodos e amplitude de 127, e gerar um .png e um .yml dessa senóide criada.
 
+Senóide do exercício, com 8 períodos:
+
+.Figura 4: Senóide de 8 períodos
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/8-senoide-256.png]
+image::exercicio_5/8-senoide-256.png[]
+
+Arquivo YML: https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/8-senoide-256.yml[8-senoide-256.yml]
+
 O resultado foi o seguinte:
 
-.Figura 4: Senóide de 4 períodos
+.Figura 5: Senóide de 4 períodos
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/4-senoide-256.png]
 image::exercicio_5/4-senoide-256.png[]
 
@@ -53,7 +61,7 @@ Arquivo YML gerado: https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/e
 A outra parte do exercício pedia para traçar um gráfico da diferença calculada ao londo de uma linha extraída das imagens correspondentes.
 O gráfico extraído foi esse:
 
-.Figura 5: Diferença entre senóides (extraída com a ajuda do seguinte programa feito em Python https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferencas.ipynb[diferencas.ipynb], e compilado no Jupyter Notebook)
+.Figura 6: Diferença entre senóides (extraída com a ajuda do seguinte programa feito em Python https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferencas.ipynb[diferencas.ipynb], e compilado no Jupyter Notebook)
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferenca.png]
 image::exercicio_5/diferenca.png[]
 
