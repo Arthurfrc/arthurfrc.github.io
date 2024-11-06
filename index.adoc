@@ -1,15 +1,12 @@
+:toc: left
+:toclevels: 2
+:toc-tile: Sumário
+
 = Processamento Digital de Imagens
 Arthur Felipe Rodrigues Costa
 
-:toc: left
-:toclevels: 2
 :icons: font
-:toc-tile: Sumário
 :summary:
-
-{summary}
-
-==Sumário
 
 toc::[]
 
