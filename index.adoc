@@ -26,12 +26,14 @@ image::exercicio_2/biel.png[]
 
 E após compilar o programa com o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists.txt[CMakeLists.txt] adequado, foram obtido os resultados abaixo:
 
+
 P1 = [100, 50]
 P2 = [200, 200]
 
 .Figura 2: biel-2.png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-2.png]
 image::exercicio_2/biel-2.png[]
+
 
 P1 = [50, 50]
 P2 = [100, 150]
@@ -40,7 +42,14 @@ P2 = [100, 150]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-3.png]
 image::exercicio_2/biel-3.png[]
 
-Para a segunda parte do exercício, a de troca de regiões, foi preciso modificar um pouco o arquivo anterior para este https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists2.txt[CMakeLists.txt] e, novamente com a imagem original do Biel.png como entrada, resultando na saída abaixo:
+
+Para a segunda parte do exercício, a de troca de regiões, foi feito o código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/trocaregioes.cpp[trocaregioes.cpp] e foi preciso modificar um pouco o arquivo anterior para este https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists2.txt[CMakeLists.txt], novamente, com a imagem original do Biel.png como entrada, resultando encontrado foi o da saída abaixo:
+
+
+.Figura 4: trocaregioes.png
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/trocaregioes.png]
+image::exercicio_2/trocaregioes.png[]
+
 
 == Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
 
