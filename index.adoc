@@ -111,6 +111,14 @@ A alteração seria abaixo da linha 21 do programa https://github.com/Arthurfrc/
 
 Entre "*" estão as partes adicionadas ao código de labeling.cpp para poder marcar mais de 255 objetos em cena.
 
+Para a segunda parte do exercício, onde devemos aprimorar o código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp] para que seja possível identificar regiões com ou sem buracos internos, foi feito o seguinte arquivo https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/newlabeling.cpp[newlabeling.cpp], onde foi assumido que não se deve contar as bolhas nas bordas da imagem.
+
+Aqui abaixo podemos observar a imagem bolhas.png de entrada, a sua saída depois do código varrê-la e a contagem de bolhas.
+
+.Figura 7: Bolhas
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas.png]
+image::exercicio_11/bolhas.png[]
+
 
 == Capítulo 12, Manipulação de histogramas
 
