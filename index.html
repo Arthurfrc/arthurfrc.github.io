@@ -574,20 +574,32 @@ O gráfico extraído foi esse:</p>
 <p>Nessa situação do código de <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a> somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2<sup>8</sup>, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2<sup>16</sup> objetos na figura.</p>
 </div>
 <div class="paragraph">
-<p>A alteração seria abaixo da linha 21 do programa <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a>, que é onde seria adicionado as linhas de código abaixo para se criar a iamgem com 16 bits para armazenar os rótulos, no final, se coloca uma conversão de volta para 8 bits para poder normalizar a imagem para poder mostrá-la na tela novamente.</p>
+<p>A alteração seria abaixo da linha 21 do programa <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a>, que é onde seria adicionado as linhas de código abaixo para se criar a iamgem com 16 bits para armazenar os rótulos, ao final, antes dos comandos de <strong>imshow</strong>, faz-se uma conversão de volta para 8 bits para poder normalizar a imagem e mostrá-la em tela novamente.</p>
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlight"><code class="language-cpp" data-lang="cpp">    labelImage = cv::Mat::zeros(height, width, CV_16U);
+<pre class="highlight"><code class="language-cpp" data-lang="cpp">21
+    *labelImage = cv::Mat::zeros(height, width, CV_16U);*
+22
     [. . .]
-    if (image.at&lt;uchar&gt;(i, j) == 255 &amp;&amp; labelImage.at&lt;ushort&gt;(i, j) == 0) {
-        nobjects++;
-        p.x = j;
-        p.y = i;
-        cv::floodFill(labelImage, p, nobjects);
+30  if (image.at&lt;uchar&gt;(i, j) == 255 *&amp;&amp; labelImage.at&lt;ushort&gt;(i, j) == 0*) {
+31      // achou um objeto
+32      nobjects++;
+33      // para o floodfill as coordenadas
+34      // x e y são trocadas.
+35      p.x = j;
+36      p.y = i;
+37      // preenche o objeto com o contador
+38      cv::floodFill(*labelImage*, p, nobjects);
+
     [. . .]
-    labelImage.convertTo(displayImage, CV_8U, 255.0 / nobjects);</code></pre>
+42  std::cout &lt;&lt; "a figura tem " &lt;&lt; nobjects &lt;&lt; " bolhas\n";
+    *cv::Mat displayImage;*
+    *labelImage.convertTo(displayImage, CV_8U, 255.0 / nobjects);*</code></pre>
 </div>
+</div>
+<div class="paragraph">
+<p>Entre "*" estão as partes adicionadas ao código de labeling.cpp para poder marcar mais de 255 objetos em cena.</p>
 </div>
 </div>
 </div>
@@ -612,7 +624,7 @@ O gráfico extraído foi esse:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-11-07 18:11:30 UTC
+Last updated 2024-11-07 18:20:15 UTC
 </div>
 </div>
 </body>
