@@ -76,6 +76,13 @@ Pode-se notar na imagem que anova onda formada pela sobreposição das senóides
 == Capítulo 11, Preenchendo regiões
 Nessa situação do código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp] somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2^8^, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2^16^ objetos na figura.
 
+A alteração seria abaixo da linha 21 do programa https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp], que é onde seria adicionado uma linha para se criar a iamgem com 16 bits para armazenar os rótulos.
+
+[source,cpp]
+----
+    labelImage = cv::Mat::zeros(height, width, CV_16U);
+----
+
 == Capítulo 12, Manipulação de histogramas
 
 == Capítulo 14, Filtragem no domínio espacial I - Convolução
