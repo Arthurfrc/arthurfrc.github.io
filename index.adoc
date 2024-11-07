@@ -119,6 +119,14 @@ Aqui abaixo podemos observar a imagem bolhas.png de entrada, a sua saída depois
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas.png]
 image::exercicio_11/bolhas.png[]
 
+.Figura 8: Bolhas 2
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas2.png]
+image::exercicio_11/bolhas2.png[]
+
+.Figura 9: Contagem de bolhas
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/status.png]
+image::exercicio_11/status.png[]
+
 
 == Capítulo 12, Manipulação de histogramas
 
