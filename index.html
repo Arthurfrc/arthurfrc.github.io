@@ -573,6 +573,14 @@ O gráfico extraído foi esse:</p>
 <div class="paragraph">
 <p>Nessa situação do código de <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a> somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2<sup>8</sup>, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2<sup>16</sup> objetos na figura.</p>
 </div>
+<div class="paragraph">
+<p>A alteração seria abaixo da linha 21 do programa <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a>, que é onde seria adicionado uma linha para se criar a iamgem com 16 bits para armazenar os rótulos.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code class="language-cpp" data-lang="cpp">    labelImage = cv::Mat::zeros(height, width, CV_16U);</code></pre>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -596,7 +604,7 @@ O gráfico extraído foi esse:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-11-07 18:02:23 UTC
+Last updated 2024-11-07 18:06:48 UTC
 </div>
 </div>
 </body>
