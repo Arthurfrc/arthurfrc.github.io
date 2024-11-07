@@ -489,13 +489,21 @@ ao entrar com as coordenadas (x, y) de dois pontos P1 e P2, deixar a região ent
 <div class="title">Figura 1: biel.png</div>
 </div>
 <div class="paragraph">
-<p>E após rodar o programa com o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists.txt">CMakeLists.txt</a> adequado, foram obtido os resultados abaixo:</p>
+<p>E após compilar o programa com o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/CMakeLists.txt">CMakeLists.txt</a> adequado, foram obtido os resultados abaixo:</p>
+</div>
+<div class="paragraph">
+<p>P1 = [100, 50]
+P2 = [200, 200]</p>
 </div>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/biel-2.png"><img src="exercicio_2/biel-2.png" alt="biel 2"></a>
 </div>
 <div class="title">Figura 2: biel-2.png</div>
+</div>
+<div class="paragraph">
+<p>P1 = [50, 50]
+P2 = [100, 150]</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -527,7 +535,7 @@ ao entrar com as coordenadas (x, y) de dois pontos P1 e P2, deixar a região ent
 <p>Arquivo YML: <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/8-senoide-256.yml">8-senoide-256.yml</a></p>
 </div>
 <div class="paragraph">
-<p>O resultado foi o seguinte:</p>
+<p>O resultado gerado pelo programa para a senóide de 4 períodos foi a seguinte:</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -549,7 +557,7 @@ O gráfico extraído foi esse:</p>
 <div class="title">Figura 6: Diferença entre senóides (extraída com a ajuda do seguinte programa feito em Python <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/diferencas.ipynb">diferencas.ipynb</a>, e compilado no Jupyter Notebook)</div>
 </div>
 <div class="paragraph">
-<p>A imagem mostra uma nova onda que é formada pela sobreposição das senóides anteriores, isso acontece porque as ondas se misturam e acabam se interferindo, o que forma essa nova estrutura oscilatória, que é mais complexa do que as duas ondas que as ondas originais.</p>
+<p>Pode-se notar na imagem que anova onda formada pela sobreposição das senóides das imagens anteriores também é periódica, mas com um padrão muito mais complexo do que as suas geradoras, isso acontece porque as ondas que a formaram se misturam e se interferem, o que acaba gerando essa nova estrutura oscilatória.</p>
 </div>
 </div>
 </div>
@@ -563,7 +571,7 @@ O gráfico extraído foi esse:</p>
 <h2 id="_capítulo_11_preenchendo_regiões">Capítulo 11, Preenchendo regiões</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Esta situação de somente 255 objetos poderem ser verificados acontece por causa do tipo de dado (uchar) que pe utilizado, pois esse tipo só possui 8 bits, caso fosse necessário ter que contar mais de 255 objetos, seria possível com a mudança para um tipo de dado com 16bits, que assim poderia contar até mais de 60.000 objetos na figura.</p>
+<p>Nessa situação do código de <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a> somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2<sup>8</sup>, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2<sup>16</sup> objetos na figura.</p>
 </div>
 </div>
 </div>
@@ -588,7 +596,7 @@ O gráfico extraído foi esse:</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-11-07 17:17:35 UTC
+Last updated 2024-11-07 18:02:23 UTC
 </div>
 </div>
 </body>
