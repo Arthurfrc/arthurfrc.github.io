@@ -1,0 +1,7 @@
+a - Absoluto
+m - Filtro da Média
+g - Fitro Gaussiano
+h - Detector de Bordas horizontais
+v - Detector de Bordas Verticais
+l - Filtro Laplaciano
+b - Filtro de ênfase - boost
