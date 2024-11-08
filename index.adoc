@@ -113,11 +113,11 @@ Entre "*" estão as partes adicionadas ao código de labeling.cpp para poder mar
 
 Para a segunda parte do exercício, onde devemos aprimorar o código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp] para que seja possível identificar regiões com ou sem buracos internos, foi feito o seguinte arquivo https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/newlabeling.cpp[newlabeling.cpp], onde foi assumido que não se deve contar as bolhas nas bordas da imagem.
 
-Aqui abaixo podemos observar alguns passos do processo de FloodFill:
-1- A imagem bolhas.png de entrada
-2- Após excluir as bolhas que tocam as bordas do processo
-3- Após finalizar o processo de labeling
-4- A contagem do total de bolhas
+Aqui abaixo podemos observar alguns passos do processo de FloodFill:  +
+1. A imagem bolhas.png de entrada  +
+2. Após excluir as bolhas que tocam as bordas do processo  +
+3. Após finalizar o processo de labeling  +
+4. A contagem do total de bolhas  +
 
 .Figura 8: Bolhas
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas.png]
