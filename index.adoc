@@ -150,10 +150,17 @@ image::exercicio_12/dedo.png[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/polvo_rosa.png]
 image::exercicio_12/polvo_rosa.png[]
 
-.Figura 14: Polvo Verde
+.Figura 14: Tentáculo rosa sobre a câmera
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/rosa.png]
+image::exercicio_12/rosa.png[]
+
+.Figura 15: Polvo Verde
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/polvo_verde.png]
 image::exercicio_12/polvo_verde.png[]
 
+.Figura 16: Tentáculo verde sobre a câmera
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/verde.png]
+image::exercicio_12/verde.png[]
 
 
 == Capítulo 14, Filtragem no domínio espacial I - Convolução
