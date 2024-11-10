@@ -82,6 +82,20 @@ Pode-se notar na imagem que anova onda formada pela sobreposição das senóides
 
 == Capítulo 10, Decomposição de imagens em planos de bits
 
+Essa atividade consiste em usar o código https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/bitplanes.cpp[bitplanes.cpp] como base e criar um que possa recuperar uma imagem codificada escondida dentro de outra, em um processo chamado de esteganografia.
+
+Foi criado então o código https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/recover.cpp[recover.cpp] com esse intuito, e utilizado na imagem à seguir:
+
+.Figura 8: Imagem codificada
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/esteganografia.png]
+image::exercicio_10/esteganografia.png[]
+
+O resultado que saiu após o código ser rodado foi a seguinte imagem:
+
+.Figura 9: Imagem recuperada
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/imagem_recuperada.png]
+image::exercicio_10/imagem_recuperada.png[]
+
 == Capítulo 11, Preenchendo regiões
 Nessa situação do código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp] somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2^8^, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2^16^ objetos na figura.
 
@@ -119,20 +133,20 @@ Aqui abaixo podemos observar alguns passos do processo de FloodFill:  +
 3. Após finalizar o processo de labeling  +
 4. A contagem do total de bolhas  +
 
-.Figura 8: Bolhas
+.Figura 10: Bolhas
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas.png]
 image::exercicio_11/bolhas.png[]
 
 
-.Figura 9: Bolhas 2
+.Figura 11: Bolhas 2
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas2.png]
 image::exercicio_11/bolhas2.png[]
 
-.Figura 10: Bolhas 3
+.Figura 12: Bolhas 3
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/bolhas3.png]
 image::exercicio_11/bolhas3.png[]
 
-.Figura 11: Contagem de bolhas
+.Figura 13: Contagem de bolhas
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/status.png]
 image::exercicio_11/status.png[]
 
@@ -142,23 +156,23 @@ image::exercicio_11/status.png[]
 Para este exercício, foi proposto que fizéssemos um código tendo o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/histogram.cpp[histogram.cpp] como base para equalizar o histograma de uma imagem gerada por uma câmera.
 Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsungo S20 FE para conseguir obter os resultados em vídeo e capturas de tela do histograma, o código que foi utilizado é o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/equalize.cpp[equalize.cpp], e os resultados obtidos foram as imagens a seguir:
 
-.Figura 12: Dedo em frente à câmera
+.Figura 14: Dedo em frente à câmera
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/dedo .png]
 image::exercicio_12/dedo.png[]
 
-.Figura 13: Polvo Rosa
+.Figura 15: Polvo Rosa
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/polvo_rosa.png]
 image::exercicio_12/polvo_rosa.png[]
 
-.Figura 14: Polvo Verde
+.Figura 16: Polvo Verde
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/polvo_verde.png]
 image::exercicio_12/polvo_verde.png[]
 
-.Figura 15: Tentáculo rosa sobre a câmera
+.Figura 17: Tentáculo rosa sobre a câmera
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/rosa.png]
 image::exercicio_12/rosa.png[]
 
-.Figura 16: Tentáculo verde sobre a câmera
+.Figura 18: Tentáculo verde sobre a câmera
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/verde.png]
 image::exercicio_12/verde.png[]
 
