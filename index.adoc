@@ -90,6 +90,8 @@ Foi criado então o código https://github.com/Arthurfrc/arthurfrc.github.io/blo
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/esteganografia.png]
 image::exercicio_10/esteganografia.png[]
 
+
+
 O resultado que saiu após o código ser rodado foi a seguinte imagem:
 
 .Figura 9: Imagem recuperada
