@@ -12,37 +12,55 @@ Arthur Felipe Rodrigues Costa
 toc::[]
 == Lista 1
 === Exercícios
+
 ==== 1. Com suas próprias palavras, explique porque programação paralela deixou de ser uma alternativa à computação sequencial convencional.
+
 ==== 2. Explique, na sua opinião, se as modificações feitas à máquina de Von Neuman, como cache
 e memória virtual, alteram a sua classificação na taxonomia de Flynn e porque. Estenda sua
 resposta a pipelines, múltiplas issues e multithreding de hardware.
+
 ==== 3. Dê dois exemplos de arquiteturas paralelas, uma do tipo MIMD e outra do tipo SIMD, e
 explique suas principais diferenças no que diz respeito à forma de processamento paralelo.
+
 ==== 4. Explique como o uso de uma variável compartilhada em um programa com múltiplos
 threads em uma arquitetura de memória compartilhada com múltiplas caches privadas pode
 deteriorar o desempenho paralelo do programa.
+
 ==== 5. Explique os conceitos de localidade temporal e espacial no contexto de caches e memória
 virtual e exemplifique como o programador pode evitar armadilhas de desempenho com o
 conhecimento desses conceitos.
+
 ==== 6. Falso compartilhamento pode ser tão prejudicial ao desempenho de um programa paralelo
 quanto o que foi exposto na questão 4. Como isso ocorre e como pode ser evitado?
+
 ==== 7. O que é a lei de Amdahl e como ela se relaciona com a lei de Gustafson?
+
 ==== 8. Como se calcula a eficácia de um programa paralelo?
+
 ==== 9. Quando se mede intervalos de tempo de execução de um programa paralelo, é aconselhável
 realizar mais de uma medição. É comum se pensar na média como cálculo de agregação
 desses valores, mas há argumentos em favor do uso da mediana. Quais não esses
 argumentos? Por outro lado, quando se mede os tempos de uma região paralela do
 programa, cada thread ou processo tem sua própria medição e, neste caso, nem a média nem
 a mediana são adequadas, por quê? O que é mais adequado?
+
 ==== 10. Como é possível determinar a escalabilidade de um programa paralelo? O que faz um
 programa ser escalável, fracamente escalável ou fortemente escalável?
+
 ==== 11. (Peso 2) Explique o passo a passo da metodologia de Foster aplicada ao programa
 histogram.c para chegar na Figura 2.22 do livro texto e implemente a paralelização
 equivalente utilizando OpenMP.
+
 ==== 12. Questão 5.2 do livro texto.
+
 ==== 13. Questão 5.7 do livro texto.
+
 ==== 14. Questão 5.8 do livro texto.
+
 ==== 15. Questão 5.10 do livro texto.
+
 ==== 16. (Peso 2) Questão 5.12 do livro texto.
+
 ==== 17. Questão 5.13 do livro texto.
+
 ==== 18. (Peso 2) Questão 5. 15 do livro texto.
