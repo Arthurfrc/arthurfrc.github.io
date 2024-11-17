@@ -181,4 +181,23 @@ image::exercicio_12/verde.png[]
 
 == Capítulo 14, Filtragem no domínio espacial I - Convolução
 
+Neste exercício é proposto que seja feito filtros de média com tamanhos de máscaras de 11x11 e 21x21, faça uma captura de imagem e compare ambos os filtros com o filtro de média com máscara de tamanho 3x3.
+
+O código utlilizado se encontra neste arquivo https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_14/convolucao.cpp [convolucao.cpp]
+
+Após ser feito a captura com a mesma imagem, as saídas dos filtros fpra as seguintes:
+
+.Figura 19: Saída de filtro com máscara tamanho 3x3
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_14/Filtro3x3.png]
+image::exercicio_14/Filtro3x3.png[]
+
+.Figura 20: Saída de filtro com máscara tamanho 11x11
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_14/Filtro11x11.png]
+image::exercicio_14/Filtro11x11.png[]
+
+
+.Figura 21: Saída de filtro com máscara tamanho 21x21
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_14/Filtro21x21.png]
+image::exercicio_14/Filtro21x21.png[]
+
 == Capítulo 15, Filtragem no domínio espacial II - TiltShift
