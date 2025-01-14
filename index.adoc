@@ -243,10 +243,10 @@ image::exercicio_17/biel.png[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-14.png]
 image::exercicio_17/Filtro-14.png[]
 
-.Figura 28: Filtro com 14 selecionado na barra
+.Figura 28: Filtro com 50 selecionado na barra
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-50.png]
 image::exercicio_17/Filtro-50.png[]
 
-.Figura 29: Filtro com 14 selecionado na barra
+.Figura 29: Filtro com 100 selecionado na barra
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
 image::exercicio_17/Filtro-100.png[]
