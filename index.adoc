@@ -232,21 +232,21 @@ Com as mudanças feitas, foi obtido o seguinte código https://github.com/Arthur
 
 
 .Figura 25: Filtro homomórfico automático antes de ser implementado o slider para ajustes manuais
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/homomorfico.png]
-image::exercicio_16/homomorfico.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/homomorfico.png]
+image::exercicio_17/homomorfico.png[]
 
 .Figura 26: Imagem original
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/biel.png]
-image::exercicio_16/biel.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/biel.png]
+image::exercicio_17/biel.png[]
 
 .Figura 27: Filtro com 14 selecionado na barra
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-14.png]
-image::exercicio_16/Filtro-14.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-14.png]
+image::exercicio_17/Filtro-14.png[]
 
 .Figura 28: Filtro com 14 selecionado na barra
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-50.png]
-image::exercicio_16/Filtro-50.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-50.png]
+image::exercicio_17/Filtro-50.png[]
 
 .Figura 29: Filtro com 14 selecionado na barra
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-100.png]
-image::exercicio_16/Filtro-100.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
+image::exercicio_17/Filtro-100.png[]
