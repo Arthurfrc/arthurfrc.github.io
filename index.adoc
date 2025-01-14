@@ -215,11 +215,11 @@ image::exercicio_16/Figura.png[]
 As saídas que consegui foram as seguintes:
 
 .Figura 23: Saída direto da imagem
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectro.png]
-image::exercicio_16/Espectro.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectros.png]
+image::exercicio_16/Espectros.png[]
 
 .Figura 24: Saída do código YAML da imagem
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectro_2.png]
-image::exercicio_16/Espectro_2.png[]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectros_2.png]
+image::exercicio_16/Espectros_2.png[]
 
 Pode não parecer nada diferente, mas a segunda imagem se aproxima mais da senóide original pelo fato de ela ser uma representação feita diretamente dos valores obtidos ao invés de serem obtidos após uma conversão para imagem como a primeira.
