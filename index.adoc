@@ -207,3 +207,19 @@ image::exercicio_14/Filtro21x21.png[]
 Para o exercício deste capítulo, é pedido que seja calculado o espectro de magnetude de uma imagem de senóide de 256x256 pixels usando o código do arquivo de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/dft.cpp [dft.cpp] , e compará-lo com um código adaptado com base no https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/filestorage.cpp [filestorage.cpp] onde esse código terá como entrada um código em YAML equivalente à imagem de entrada do arquivo dft.cpp.
 
 O código feito foi o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/dft_2.cpp [dft_2.cpp] , onde a entrada foi a mesma imagem de 256x256 pixels, porém o arquivo .yml da mesma, gerado com o filestorage.cpp anteriormente.
+
+.Figura 22: Imagem de entrada
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/figura.png]
+image::exercicio_16/Figura.png[]
+
+As saídas que consegui foram as seguintes:
+
+.Figura 23: Saída direto da imagem
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectro.png]
+image::exercicio_16/Espectro.png[]
+
+.Figura 24: Saída do código YAML da imagem
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/espectro_2.png]
+image::exercicio_16/Espectro_2.png[]
+
+Pode não parecer nada diferente, mas a segunda imagem se aproxima mais da senóide original pelo fato de ela ser uma representação feita diretamente dos valores obtidos ao invés de serem obtidos após uma conversão para imagem como a primeira.
