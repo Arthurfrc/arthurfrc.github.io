@@ -223,3 +223,30 @@ image::exercicio_16/Espectros.png[]
 image::exercicio_16/Espectros_2.png[]
 
 Pode não parecer nada diferente, mas a segunda imagem se aproxima mais da senóide original pelo fato de ela ser uma representação feita diretamente dos valores obtidos ao invés de serem obtidos após uma conversão para imagem como a primeira.
+
+== Capítulo 17. Filtragem no Domínio da Frequência
+
+Nesse capítulo é proposto que peguemos o código da https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/dftfilter.cpp[dftfilter.cpp] e modifiquemos para poder corrigir iluminações em cenas com o filtro homomórfico.
+
+Com as mudanças feitas, foi obtido o seguinte código https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/homomorfico.cpp[homomorfico.cpp] , onde, ao ser rodado com a imagem, mostrará uma barra para poder ajustar a iluminação da imagem como mostra no exemplo com as fotos do Biel à seguir.
+
+
+.Figura 25: Filtro homomórfico automático antes de ser implementado o slider para ajustes manuais
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/homomorfico.png]
+image::exercicio_16/homomorfico.png[]
+
+.Figura 26: Imagem original
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/biel.png]
+image::exercicio_16/biel.png[]
+
+.Figura 27: Filtro com 14 selecionado na barra
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-14.png]
+image::exercicio_16/Filtro-14.png[]
+
+.Figura 28: Filtro com 14 selecionado na barra
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-50.png]
+image::exercicio_16/Filtro-50.png[]
+
+.Figura 29: Filtro com 14 selecionado na barra
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/Filtro-100.png]
+image::exercicio_16/Filtro-100.png[]
