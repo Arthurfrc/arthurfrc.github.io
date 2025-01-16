@@ -268,4 +268,6 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 |image::exercicio_20/saida8.jpg[]
 |image::exercicio_20/saida9.jpg[]
 |image::exercicio_20/saida10.jpg[]
+|
+|
 |===
