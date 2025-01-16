@@ -259,22 +259,26 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 [cols="a,a,a", frame=none, grid=none, align=center]
 |===
 |image::exercicio_20/saida1.jpg[] 
-+++*Saída 1*+++
++++Saída 1+++
 |image::exercicio_20/saida2.jpg[] 
-+++{color:red}*Legenda 2*+++
++++Saída 2+++
 |image::exercicio_20/saida3.jpg[] 
-+++{color:red}*Legenda 3*+++
++++Saída 3+++
 |image::exercicio_20/saida4.jpg[] 
-+++{color:red}*Legenda 4*+++
++++Saída 4+++
 |image::exercicio_20/saida5.jpg[] 
-+++{color:red}*Legenda 5*+++
++++Saída 5+++
 |image::exercicio_20/saida6.jpg[] 
-+++{color:red}*Legenda 6*+++
++++Saída 6+++
 |image::exercicio_20/saida7.jpg[] 
-+++{color:red}*Legenda 7*+++
++++Saída 7+++
 |image::exercicio_20/saida8.jpg[] 
-+++{color:red}*Legenda 8*+++
++++Saída 8+++
 |image::exercicio_20/saida9.jpg[] 
-+++{color:red}*Legenda 9*+++
++++Saída 9+++
+|image::exercicio_20/saida10.jpg[] 
++++Saída 10+++
+|
+|
 |===
 
