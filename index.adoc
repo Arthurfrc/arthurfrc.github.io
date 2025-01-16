@@ -258,9 +258,7 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 
 [cols="a,a,a", frame=none, grid=none, align=center]
 |===
-.Figura 29: Filtro com 100 selecionado na barra
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
-|image::exercicio_17/Filtro-100.png[]
+|image::exercicio_20/saida1.jpg[]
 |
 |
 |===
