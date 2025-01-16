@@ -258,16 +258,26 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 
 [cols="a,a,a", frame=none, grid=none, align=center]
 |===
-|image::exercicio_20/saida1.jpg[] +++legenda 1+++
-|image::exercicio_20/saida2.jpg[] +++legenda 1+++
-|image::exercicio_20/saida3.jpg[] +++legenda 1+++
-|image::exercicio_20/saida4.jpg[] +++legenda 1+++
-|image::exercicio_20/saida5.jpg[] +++legenda 1+++
-|image::exercicio_20/saida6.jpg[] +++legenda 1+++
-|image::exercicio_20/saida7.jpg[] +++legenda 1+++
-|image::exercicio_20/saida8.jpg[] +++legenda 1+++
-|image::exercicio_20/saida9.jpg[] +++legenda 1+++
-|image::exercicio_20/saida10.jpg[] +++legenda 1+++
+|image::exercicio_20/saida1.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida2.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida3.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida4.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida5.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida6.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida7.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida8.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida9.jpg[]
++++legenda 1+++
+|image::exercicio_20/saida10.jpg[]
++++legenda 1+++
 |
 |
 |===
