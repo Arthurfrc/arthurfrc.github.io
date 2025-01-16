@@ -256,11 +256,11 @@ image::exercicio_17/Filtro-100.png[]
 No capítulo em questão, a atividade a ser desenvolvida era a de usar o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans.cpp[kmeans.cpp] como base para desenvolver um outro que execute com o parâmetro de nRodadas = 1, gerando 10 rodadas diferentes de algoritmos, e a cada rodada, gerando centros aleatórios para o algoritmo iniciar.
 Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans_random.cpp[kmeans_random.cpp] , e ao final das 10 rodadas com a imagem do https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/biel.png[Biel.png] , os resultados foram as seguintes saídas:
 
-[cols="1,1,1", frame=none, grid=none, align=center]
+[cols="a,a,a", frame=none, grid=none, align=center]
 |===
 |.Figura 29: Filtro com 100 selecionado na barra
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
-image::exercicio_17/Filtro-100.png[]
-|image::https://raw.githubusercontent.com/Arthurfrc/arthurfrc.github.io/main/exercicio_20/saida2.jpg[width=200] +++saída 2+++
-|image::https://raw.githubusercontent.com/Arthurfrc/arthurfrc.github.io/main/exercicio_20/saida3.jpg[width=200] +++saída 3+++
+|[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
+|image::exercicio_17/Filtro-100.png[]
+|
+|
 |===
