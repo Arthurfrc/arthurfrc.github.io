@@ -282,3 +282,4 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 |
 |===
 
+As saídas estão diferentes exatamente por causa dos centros escolhidos aleatoriamente no início.
