@@ -258,7 +258,7 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 
 [cols="a,a,a", frame=none, grid=none, align=center]
 |===
-|image::exercicio_20/saida1.jpg[]+++Saída 1+++
-|image::exercicio_20/saida2.jpg[]+++Saída 2+++
-|image::exercicio_20/saida3.jpg[]+++Saída 3+++
+|image::exercicio_20/saida1.jpg[]
+|image::exercicio_20/saida2.jpg[]
+|image::exercicio_20/saida3.jpg[]
 |===
