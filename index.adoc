@@ -53,7 +53,7 @@ Para a segunda parte do exercício, a de troca de regiões, foi feito o código 
 image::exercicio_2/trocaregioes.png[]
 
 
-== Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
+=== Capítulo 5, Serialização de dados em ponto flutuante via FileStorage
 
 Nesse capítulo foi instruído na atividade à se fazer uma imagem de 256x256 pixels de uma senóide com 4 períodos e amplitude de 127, e gerar um .png e um .yml dessa senóide criada.
 
@@ -82,7 +82,7 @@ image::exercicio_5/diferenca.png[]
 
 Pode-se notar na imagem que anova onda formada pela sobreposição das senóides das imagens anteriores também é periódica, mas com um padrão muito mais complexo do que as suas geradoras, isso acontece porque as ondas que a formaram se misturam e se interferem, o que acaba gerando essa nova estrutura oscilatória.
 
-== Capítulo 10, Decomposição de imagens em planos de bits
+=== Capítulo 10, Decomposição de imagens em planos de bits
 
 Essa atividade consiste em usar o código https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/bitplanes.cpp[bitplanes.cpp] como base e criar um que possa recuperar uma imagem codificada escondida dentro de outra, em um processo chamado de esteganografia.
 
@@ -100,7 +100,7 @@ O resultado que saiu após o código ser rodado foi a seguinte imagem:
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/imagem_recuperada.png]
 image::exercicio_10/imagem_recuperada.png[]
 
-== Capítulo 11, Preenchendo regiões
+=== Capítulo 11, Preenchendo regiões
 Nessa situação do código de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp] somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2^8^, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2^16^ objetos na figura.
 
 A alteração seria abaixo da linha 21 do programa https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp[labeling.cpp], que é onde seria adicionado as linhas de código abaixo para se criar a iamgem com 16 bits para armazenar os rótulos, ao final, antes dos comandos de *imshow*, faz-se uma conversão de volta para 8 bits para poder normalizar a imagem e mostrá-la em tela novamente.
@@ -155,7 +155,7 @@ image::exercicio_11/bolhas3.png[]
 image::exercicio_11/status.png[]
 
 
-== Capítulo 12, Manipulação de histogramas
+=== Capítulo 12, Manipulação de histogramas
 
 Para este exercício, foi proposto que fizéssemos um código tendo o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/histogram.cpp[histogram.cpp] como base para equalizar o histograma de uma imagem gerada por uma câmera.
 Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsungo S20 FE para conseguir obter os resultados em vídeo e capturas de tela do histograma, o código que foi utilizado é o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/equalize.cpp[equalize.cpp], e os resultados obtidos foram as imagens a seguir:
@@ -181,7 +181,7 @@ image::exercicio_12/rosa.png[]
 image::exercicio_12/verde.png[]
 
 
-== Capítulo 14, Filtragem no domínio espacial I - Convolução
+=== Capítulo 14, Filtragem no domínio espacial I - Convolução
 
 Neste exercício é proposto que seja feito filtros de média com tamanhos de máscaras de 11x11 e 21x21, faça uma captura de imagem e compare ambos os filtros com o filtro de média com máscara de tamanho 3x3.
 
@@ -202,9 +202,9 @@ image::exercicio_14/Filtro11x11.png[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_14/Filtro21x21.png]
 image::exercicio_14/Filtro21x21.png[]
 
-== Capítulo 15, Filtragem no domínio espacial II - TiltShift
+=== Capítulo 15, Filtragem no domínio espacial II - TiltShift
 
-== Capítulo 16, A Tranformada Discreta de Fourier
+=== Capítulo 16, A Tranformada Discreta de Fourier
 
 Para o exercício deste capítulo, é pedido que seja calculado o espectro de magnetude de uma imagem de senóide de 256x256 pixels usando o código do arquivo de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/dft.cpp[dft.cpp] , e compará-lo com um código adaptado com base no https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/filestorage.cpp[filestorage.cpp] onde esse código terá como entrada um código em YAML equivalente à imagem de entrada do arquivo dft.cpp.
 
@@ -226,7 +226,7 @@ image::exercicio_16/Espectros_2.png[]
 
 Pode não parecer nada diferente, mas a segunda imagem se aproxima mais da senóide original pelo fato de ela ser uma representação feita diretamente dos valores obtidos ao invés de serem obtidos após uma conversão para imagem como a primeira.
 
-== Capítulo 17. Filtragem no Domínio da Frequência
+=== Capítulo 17. Filtragem no Domínio da Frequência
 
 Nesse capítulo é proposto que peguemos o código da https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/dftfilter.cpp[dftfilter.cpp] e modifiquemos para poder corrigir iluminações em cenas com o filtro homomórfico.
 
@@ -253,7 +253,7 @@ image::exercicio_17/Filtro-50.png[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/Filtro-100.png]
 image::exercicio_17/Filtro-100.png[]
 
-== Capítulo 20. Quantização vetorial com k-means
+=== Capítulo 20. Quantização vetorial com k-means
 
 No capítulo em questão, a atividade a ser desenvolvida era a de usar o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans.cpp[kmeans.cpp] como base para desenvolver um outro que execute com o parâmetro de nRodadas = 1, gerando 10 rodadas diferentes de algoritmos, e a cada rodada, gerando centros aleatórios para o algoritmo iniciar.
 Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans_random.cpp[kmeans_random.cpp] , e ao final das 10 rodadas com a imagem do https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/biel.png[Biel.png] , os resultados foram as seguintes saídas:
