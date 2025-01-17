@@ -14,7 +14,9 @@ toc::[]
 
 Esta é uma página dedicada aos projetos e atividades de PDI, criada com AsciiDoc e hospedada no GitHub Pages.
 
-== Capítulo 2. Manipulando pixels em uma imagem
+== Lista 1
+
+=== Capítulo 2. Manipulando pixels em uma imagem
 Com base no programa https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/pixels.cpp[pixels.cpp] , foi gerado o programa https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/regions.cpp[regions.cpp] que é capaz de,
 ao entrar com as coordenadas (x, y) de dois pontos P1 e P2, deixar a região entre eles com cores em negativo.
 
