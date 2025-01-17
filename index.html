@@ -444,6 +444,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div id="toctitle">Sumário</div>
 <ul class="sectlevel1">
 <li><a href="#_introdução">Introdução</a></li>
+<li><a href="#_lista_1">Lista 1</a>
+<ul class="sectlevel2">
 <li><a href="#_capítulo_2_manipulando_pixels_em_uma_imagem">Capítulo 2. Manipulando pixels em uma imagem</a></li>
 <li><a href="#_capítulo_5_serialização_de_dados_em_ponto_flutuante_via_filestorage">Capítulo 5, Serialização de dados em ponto flutuante via FileStorage</a></li>
 <li><a href="#_capítulo_10_decomposição_de_imagens_em_planos_de_bits">Capítulo 10, Decomposição de imagens em planos de bits</a></li>
@@ -451,9 +453,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_capítulo_12_manipulação_de_histogramas">Capítulo 12, Manipulação de histogramas</a></li>
 <li><a href="#_capítulo_14_filtragem_no_domínio_espacial_i_convolução">Capítulo 14, Filtragem no domínio espacial I - Convolução</a></li>
 <li><a href="#_capítulo_15_filtragem_no_domínio_espacial_ii_tiltshift">Capítulo 15, Filtragem no domínio espacial II - TiltShift</a></li>
+</ul>
+</li>
+<li><a href="#_lista_2">Lista 2</a>
+<ul class="sectlevel2">
 <li><a href="#_capítulo_16_a_tranformada_discreta_de_fourier">Capítulo 16, A Tranformada Discreta de Fourier</a></li>
 <li><a href="#_capítulo_17_filtragem_no_domínio_da_frequência">Capítulo 17. Filtragem no Domínio da Frequência</a></li>
 <li><a href="#_capítulo_20_quantização_vetorial_com_k_means">Capítulo 20. Quantização vetorial com k-means</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -472,8 +480,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect1">
-<h2 id="_capítulo_2_manipulando_pixels_em_uma_imagem">Capítulo 2. Manipulando pixels em uma imagem</h2>
+<h2 id="_lista_1">Lista 1</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_2_manipulando_pixels_em_uma_imagem">Capítulo 2. Manipulando pixels em uma imagem</h3>
 <div class="paragraph">
 <p>Com base no programa <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/pixels.cpp">pixels.cpp</a> , foi gerado o programa <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_2/regions.cpp">regions.cpp</a> que é capaz de,
 ao entrar com as coordenadas (x, y) de dois pontos P1 e P2, deixar a região entre eles com cores em negativo.</p>
@@ -520,10 +530,8 @@ P2 = [100, 150]</p>
 <div class="title">Figura 4: trocaregioes.png</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_5_serialização_de_dados_em_ponto_flutuante_via_filestorage">Capítulo 5, Serialização de dados em ponto flutuante via FileStorage</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_5_serialização_de_dados_em_ponto_flutuante_via_filestorage">Capítulo 5, Serialização de dados em ponto flutuante via FileStorage</h3>
 <div class="paragraph">
 <p>Nesse capítulo foi instruído na atividade à se fazer uma imagem de 256x256 pixels de uma senóide com 4 períodos e amplitude de 127, e gerar um .png e um .yml dessa senóide criada.</p>
 </div>
@@ -565,10 +573,8 @@ O gráfico extraído foi esse:</p>
 <p>Pode-se notar na imagem que anova onda formada pela sobreposição das senóides das imagens anteriores também é periódica, mas com um padrão muito mais complexo do que as suas geradoras, isso acontece porque as ondas que a formaram se misturam e se interferem, o que acaba gerando essa nova estrutura oscilatória.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_10_decomposição_de_imagens_em_planos_de_bits">Capítulo 10, Decomposição de imagens em planos de bits</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_10_decomposição_de_imagens_em_planos_de_bits">Capítulo 10, Decomposição de imagens em planos de bits</h3>
 <div class="paragraph">
 <p>Essa atividade consiste em usar o código <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_10/bitplanes.cpp">bitplanes.cpp</a> como base e criar um que possa recuperar uma imagem codificada escondida dentro de outra, em um processo chamado de esteganografia.</p>
 </div>
@@ -591,10 +597,8 @@ O gráfico extraído foi esse:</p>
 <div class="title">Figura 9: Imagem recuperada</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_11_preenchendo_regiões">Capítulo 11, Preenchendo regiões</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_11_preenchendo_regiões">Capítulo 11, Preenchendo regiões</h3>
 <div class="paragraph">
 <p>Nessa situação do código de <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_11/labeling.cpp">labeling.cpp</a> somente 255 objetos poderem ser verificados, isso acontece por causa do tipo de dados (uchar) que é utilizado, pois como esse tipo possui 8 bits, o máximo de tons que se pode utilizar é de 2<sup>8</sup>, e caso seja necessário contar mais do que 255 objetos, o código iria acabar voltando ao tom 0, para que isso seja possível, é necessário uma mudança de tipo para um dado que tenha mais capacidade de armazenamento, como por exemplo, usar CV_16U que suporta 16bits, assim poderia contar até 2<sup>16</sup> objetos na figura.</p>
 </div>
@@ -661,10 +665,8 @@ O gráfico extraído foi esse:</p>
 <div class="title">Figura 13: Contagem de bolhas</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_12_manipulação_de_histogramas">Capítulo 12, Manipulação de histogramas</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_12_manipulação_de_histogramas">Capítulo 12, Manipulação de histogramas</h3>
 <div class="paragraph">
 <p>Para este exercício, foi proposto que fizéssemos um código tendo o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/histogram.cpp">histogram.cpp</a> como base para equalizar o histograma de uma imagem gerada por uma câmera.
 Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsungo S20 FE para conseguir obter os resultados em vídeo e capturas de tela do histograma, o código que foi utilizado é o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_12/equalize.cpp">equalize.cpp</a>, e os resultados obtidos foram as imagens a seguir:</p>
@@ -700,10 +702,8 @@ Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsung
 <div class="title">Figura 18: Tentáculo verde sobre a câmera</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_14_filtragem_no_domínio_espacial_i_convolução">Capítulo 14, Filtragem no domínio espacial I - Convolução</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_14_filtragem_no_domínio_espacial_i_convolução">Capítulo 14, Filtragem no domínio espacial I - Convolução</h3>
 <div class="paragraph">
 <p>Neste exercício é proposto que seja feito filtros de média com tamanhos de máscaras de 11x11 e 21x21, faça uma captura de imagem e compare ambos os filtros com o filtro de média com máscara de tamanho 3x3.</p>
 </div>
@@ -732,16 +732,17 @@ Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsung
 <div class="title">Figura 21: Saída de filtro com máscara tamanho 21x21</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_15_filtragem_no_domínio_espacial_ii_tiltshift">Capítulo 15, Filtragem no domínio espacial II - TiltShift</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_15_filtragem_no_domínio_espacial_ii_tiltshift">Capítulo 15, Filtragem no domínio espacial II - TiltShift</h3>
 
 </div>
 </div>
+</div>
 <div class="sect1">
-<h2 id="_capítulo_16_a_tranformada_discreta_de_fourier">Capítulo 16, A Tranformada Discreta de Fourier</h2>
+<h2 id="_lista_2">Lista 2</h2>
 <div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_16_a_tranformada_discreta_de_fourier">Capítulo 16, A Tranformada Discreta de Fourier</h3>
 <div class="paragraph">
 <p>Para o exercício deste capítulo, é pedido que seja calculado o espectro de magnetude de uma imagem de senóide de 256x256 pixels usando o código do arquivo de <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/dft.cpp">dft.cpp</a> , e compará-lo com um código adaptado com base no <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/filestorage.cpp">filestorage.cpp</a> onde esse código terá como entrada um código em YAML equivalente à imagem de entrada do arquivo dft.cpp.</p>
 </div>
@@ -773,10 +774,8 @@ Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsung
 <p>Pode não parecer nada diferente, mas a segunda imagem se aproxima mais da senóide original pelo fato de ela ser uma representação feita diretamente dos valores obtidos ao invés de serem obtidos após uma conversão para imagem como a primeira.</p>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_17_filtragem_no_domínio_da_frequência">Capítulo 17. Filtragem no Domínio da Frequência</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_17_filtragem_no_domínio_da_frequência">Capítulo 17. Filtragem no Domínio da Frequência</h3>
 <div class="paragraph">
 <p>Nesse capítulo é proposto que peguemos o código da <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_17/dftfilter.cpp">dftfilter.cpp</a> e modifiquemos para poder corrigir iluminações em cenas com o filtro homomórfico.</p>
 </div>
@@ -814,10 +813,8 @@ Nesse caso, foi utilizado o programa DroidCAM em conjunto com um celular Samsung
 <div class="title">Figura 29: Filtro com 100 selecionado na barra</div>
 </div>
 </div>
-</div>
-<div class="sect1">
-<h2 id="_capítulo_20_quantização_vetorial_com_k_means">Capítulo 20. Quantização vetorial com k-means</h2>
-<div class="sectionbody">
+<div class="sect2">
+<h3 id="_capítulo_20_quantização_vetorial_com_k_means">Capítulo 20. Quantização vetorial com k-means</h3>
 <div class="paragraph">
 <p>No capítulo em questão, a atividade a ser desenvolvida era a de usar o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans.cpp">kmeans.cpp</a> como base para desenvolver um outro que execute com o parâmetro de nRodadas = 1, gerando 10 rodadas diferentes de algoritmos, e a cada rodada, gerando centros aleatórios para o algoritmo iniciar.
 Foram realizadas as mudanças e o algoritmo final foi o <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/kmeans_random.cpp">kmeans_random.cpp</a> , e ao final das 10 rodadas com a imagem do <a href="https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_20/biel.png">Biel.png</a> , os resultados foram as seguintes saídas:</p>
@@ -927,9 +924,10 @@ Foram realizadas as mudanças e o algoritmo final foi o <a href="https://github.
 </div>
 </div>
 </div>
+</div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-01-16 21:26:06 UTC
+Last updated 2025-01-17 20:14:50 UTC
 </div>
 </div>
 </body>
