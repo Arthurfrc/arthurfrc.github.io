@@ -204,6 +204,8 @@ image::exercicio_14/Filtro21x21.png[]
 
 === Capítulo 15, Filtragem no domínio espacial II - TiltShift
 
+== Lista 2
+
 === Capítulo 16, A Tranformada Discreta de Fourier
 
 Para o exercício deste capítulo, é pedido que seja calculado o espectro de magnetude de uma imagem de senóide de 256x256 pixels usando o código do arquivo de https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_16/dft.cpp[dft.cpp] , e compará-lo com um código adaptado com base no https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_5/filestorage.cpp[filestorage.cpp] onde esse código terá como entrada um código em YAML equivalente à imagem de entrada do arquivo dft.cpp.
