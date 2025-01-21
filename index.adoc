@@ -287,3 +287,21 @@ Foram realizadas as mudanças e o algoritmo final foi o https://github.com/Arthu
 |===
 
 As saídas estão diferentes exatamente por causa dos centros escolhidos aleatoriamente no início.
+
+== Lista 3
+
+=== Capítulo 21. Extração de contornos
+
+Neste capítulo, o exercício é dividido em 2 partes, a primeira pede para aplicar o código original do https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_21/contornos.cpp[contornos.cpp] na imagem dos retângulos e ver quantos pontos são gerados para o seu contorno.
+
+O resultado foi o seguinte:
+
+.Figura 30: Pontos de contorno extraídos
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_21/contornos_original.png]
+image::exercicio_21/contornos_original.png[]
+
+Após isso, a atividade pediu para modificar o programa e extrair os contornos novamente, ao final o código finalizado ficou neste arquivo https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_21/contornos2.cpp[contornos2.cpp] e a saída foi a seguinte:
+
+.Figura 31: Pontos de contorno simplificados extraídos
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_21/cont_retangulos.png]
+image::exercicio_21/cont_retangulos.png[]
