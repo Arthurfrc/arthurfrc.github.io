@@ -305,3 +305,7 @@ Após isso, a atividade pediu para modificar o programa e extrair os contornos n
 .Figura 31: Pontos de contorno simplificados extraídos
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_21/cont_retangulos.png]
 image::exercicio_21/cont_retangulos.png[]
+
+Como podemos notar, o número de pontos encontrados caiu de 746 para 10, ou seja, as modificações pedidas no código fizeram que pontos redundantes fossem ignorados na hora de contar os pontos do contorno.
+
+OBS: O resultado IDEAL seriam 8 pontos, mas é possível que tenham sido contados 2 pontos em cada aresta interna, pois é onde ficam as interseções dos quadrados.
