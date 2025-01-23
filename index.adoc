@@ -314,7 +314,7 @@ OBS: O resultado IDEAL seriam 8 pontos, mas é possível que tenham sido contado
 
 Esse exercício foi um pouco complicado de se resolver, pois ele pedia para procurar por uma pessoa no meio da multidão, o código feito para isso foi o 
 
-=== Capítulo 23. Extração de características: Momentos de Hu para contornos https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/momentos-regioes-2.cpp[momento-regioes-2.cpp] , que rodou com as seguintes imagens para procurar.
+https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/momentos-regioes-2.cpp[momento-regioes-2.cpp] , que rodou com as seguintes imagens para procurar.
 
 .Figura 32: Pessoa.jpg
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/pessoa.jpg]
@@ -338,7 +338,8 @@ imagem::exercicio_22/resultado.png[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/localizacao.png]
 imagem::exercicio_22/localizacao.png[]
 
-
 Como pode ser notado nessa última imagem, o resultado foi que o algoritmo encontrou a pessoa procurada no ponto [2129, 495] no meio da multidão
+
+=== Capítulo 23. Extração de características: Momentos de Hu para contornos 
 
 === Capítulo 24. Filtragem de forma com morfologia matemática
