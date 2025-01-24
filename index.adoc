@@ -339,7 +339,7 @@ image::exercicio_22/resultado.png[]
 
 
 .Figura 36: Localização.png
-[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/resultado.png]
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/localizacao.png]
 image::exercicio_22/resultado.png[]
 
 Como pode ser notado nessa última imagem, o resultado foi que o algoritmo encontrou a pessoa procurada no ponto [2129, 495] no meio da multidão
