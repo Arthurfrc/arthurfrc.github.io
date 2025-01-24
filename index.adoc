@@ -332,6 +332,7 @@ O resultado depois de fazer a varredura foi o seguinte:
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/resultado.jpg]
 image::exercicio_22/resultado.jpg[]
 
+
 .Figura 35: Resultado.png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/resultado.png]
 image::exercicio_22/resultado.png[]
