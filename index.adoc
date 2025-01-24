@@ -347,4 +347,15 @@ Como pode ser notado nessa última imagem, o resultado foi que o algoritmo encon
 
 === Capítulo 23. Extração de características: Momentos de Hu para contornos 
 
+Agora nesse capítulo, foi pedido para modificar o código, o que gerou o arquivo https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_23/momentos.cpp[momentos.cpp] após as alterações, e com essas mudanças, foi pedido para se obter um arquivo com números, que eles, por sua vez, são valores equivalentes aos momentos de Hu para os contornos de figuras que estão disponíveis na imagem que foi processada pelo código.
+
+
+.Figura 37: Imagem original.png
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_23/momentos.png]
+image::exercicio_23/momentos.png[]
+
+.Figura 37: Imagem processada.png
+[link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_23/contornos-rotulados.png]
+image::exercicio_23/contornos-rotulados.png[]
+
 === Capítulo 24. Filtragem de forma com morfologia matemática
