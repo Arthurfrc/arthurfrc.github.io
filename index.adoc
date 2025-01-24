@@ -336,6 +336,7 @@ image::exercicio_22/resultado.jpg[]
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/resultado.png]
 image::exercicio_22/resultado.png[]
 
+
 .Figura 36: Localizacao.png
 [link=https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_22/localizacao.png]
 image::exercicio_22/localizacao.png[]
