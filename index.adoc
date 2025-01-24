@@ -387,6 +387,6 @@ image::exercicio_23/contornos-rotulados.png[]
 |29| 0.338675| 0.738061| 3.85143| 4.03897| 7.98444| 4.4133| -9.42881
 |===
 
-Com esses valores encontrados pelos momentos de Hu, podemos observar que figuras semelhantes vão ter valores semelhantes
+Com esses valores encontrados pelos momentos de Hu, podemos observar que figuras semelhantes vão ter valores semelhantes, como por exemplo, as figuras de número 3, 5 e 12 (entre outras), que são arruelas circulares, e claro que, mesmo que sejam semelhantes, se forem contornos parecidos, mas que estão rotacionados, podem haver divergências, como no caso do momento 𝜂~7~ das figuras 10 e 13, que estão basicamente apontando para sentidos opostos.
 
 === Capítulo 24. Filtragem de forma com morfologia matemática
