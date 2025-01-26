@@ -409,3 +409,21 @@ As imagens com números de entradas foram as seguintes:
 |image::exercicio_24/digitos-6.png[] 
 +++Dígito 6+++
 |===
+
+Após passarem pelo código https://github.com/Arthurfrc/arthurfrc.github.io/blob/main/exercicio_24/morfologia2.cpp[morfologia2.cpp] , as saídas foram o seguinte:
+
+[cols="a,a,a", frame=none, grid=none, align=center]
+|===
+|image::exercicio_24/digito-1-resultado.png[] 
++++Dígito 1+++
+|image::exercicio_24/digito-2-resultado.png[] 
++++Dígito 2+++
+|image::exercicio_24/digito-3-resultado.png[] 
++++Dígito 3+++
+|image::exercicio_24/digito-4-resultado.png[] 
++++Dígito 4+++
+|image::exercicio_24/digito-5-resultado.png[] 
++++Dígito 5+++
+|image::exercicio_24/digito-6-resultado.png[] 
++++Dígito 6+++
+|===
