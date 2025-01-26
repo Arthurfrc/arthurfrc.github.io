@@ -427,3 +427,5 @@ Após passarem pelo código https://github.com/Arthurfrc/arthurfrc.github.io/blo
 |image::exercicio_24/digito-6-resultado.png[] 
 +++Dígito 6+++
 |===
+
+O que foi uma saída aceitável para o leitor poder decifrar qual número está sendo mostrado no leitor de 7 dígitos.
